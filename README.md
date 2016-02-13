@@ -1,7 +1,7 @@
 # devspoiler
-Los programadores a veces nos toca lidiar con herramientas web en entornos de desarrollo y producción que comparten la misma interfaz, por ejemplo cpanel, phpmyadmin, whm, etc.
+Los programadores a veces nos toca lidiar con herramientas web en entornos de desarrollo, producción y testing que pueden compartir la misma interfaz, por ejemplo cpanel, phpmyadmin, whm, etc.
 
-Esta extensión de chrome te avisa si estás en producción o desarrollo
+Esta extensión de chrome te avisa si estás en producción, desarrollo o testing
 
 ![dev_pro](http://i.imgur.com/MjflOnh.png "dev_pro")
 
@@ -14,7 +14,7 @@ Esta extensión de chrome te avisa si estás en producción o desarrollo
 
 **Configuración**
 
-Lo que hace la extensión es buscar si alguna parte de la url de la web que tengas abierta coincide con una url que hayas definido comoe producción o desarrollo
+Lo que hace la extensión es buscar si alguna parte de la url de la web que tengas abierta coincide con una url que hayas definido comoe producción, desarrollo o testing:
 
 Producción
 ```
@@ -26,11 +26,16 @@ Desarrollo
 var dev_urls = ["localhost/phpMyAdmin", "22.22.22.22", "domain2.com", "domain2.com/subfolder"];
 ```
 
+Testing
+```
+var test_urls = ["33.33.33.33", "domain3.com", "domain3.com/subfolder"];
+```
+
 **Instalar extensión en chrome**
 
 1. Entra en el menú de chrome: ventana > extensiones
 2. Dale al botón decargar extensión descomprimida
-3. Cuando entres en una url que hayas definido como producción o desarrollo se mostrará un div en la parte inferior de la pantalla para avisarte, rojo (producción) y verde (desarrollo)
+3. Cuando entres en una url que hayas definido como producción, desarrollo y testing se mostrará un div en la parte inferior de la pantalla para avisarte, rojo (producción), verde (desarrollo) y naranja (testing)
 
 **Nota: Si haces algún cambio en la configuración**
 
