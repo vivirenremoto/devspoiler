@@ -8,8 +8,9 @@ Esta extensión de chrome te avisa si estás en producción o desarrollo
 
 **Antes de empezar**
 
-1. [descarga el script](https://github.com/miquelcamps/devspoiler/archive/master.zip)
-2. descomprime el zip
+1. [Descarga la extensión](https://github.com/miquelcamps/devspoiler/archive/master.zip)
+2. Descomprime el zip
+3. Mueve la carpeta "devspoiler-master" fuera de la carpeta de descargas para evitar borrar la extensión sin querer.
 
 **Configuración**
 
