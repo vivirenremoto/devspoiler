@@ -2,7 +2,7 @@
 	"name": "Devspoiler",
 	"version": "1.0",
 	"manifest_version": 2,
-	"description": "Avisame si estoy en local o producción",
+	"description": "Avisame si estoy en desarrollo, testing o producción",
 
 
 	"icons":{
