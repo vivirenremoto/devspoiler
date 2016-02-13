@@ -14,7 +14,7 @@ Esta extensión de chrome te avisa si estás en producción, desarrollo o testin
 
 **Configuración**
 
-Lo que hace la extensión es buscar si alguna parte de la url de la web que tengas abierta coincide con una url que hayas definido comoe producción, desarrollo o testing:
+Lo que hace la extensión es buscar si alguna parte de la url de la web que tengas abierta coincide con una url que hayas definido comoe producción, desarrollo o testing, esto es en el fichero config.js:
 
 Producción
 ```
