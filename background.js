@@ -20,7 +20,16 @@ while( i < dev_urls.length && !found ){
 	i++;
 }
 
-if( zone ){
+i = 0;
+while( i < test_urls.length && !found ){
+	if( url.indexOf( test_urls[i] ) > -1 ){
+		zone = "test";
+		found = true;
+	}
+	i++;
+}
+
+if( found ){
 	var bar = document.createElement("div");
 	bar.className = "devspoiler_bar devspoiler_" + zone;
 	
