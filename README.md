@@ -7,6 +7,7 @@ Esta extensión de chrome te avisa si estás en producción o desarrollo
 
 
 **Antes de empezar**
+
 1. [descarga el script](https://github.com/miquelcamps/devspoiler/archive/master.zip)
 2. descomprime el zip
 
@@ -25,6 +26,7 @@ var dev_urls = ["localhost/phpMyAdmin", "22.22.22.22", "domain2.com", "domain2.c
 ```
 
 **Instalar extensión en chrome**
+
 1. Entra en el menú de chrome: ventana > extensiones
 2. Dale al botón decargar extensión descomprimida
 3. Cuando entres en una url que hayas definido como producción o desarrollo se mostrará un div en la parte inferior de la pantalla para avisarte, rojo (producción) y verde (desarrollo)
