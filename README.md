@@ -14,12 +14,12 @@ Esta extensión de chrome te avisa si estás en producción o desarrollo
 
 Lo que hace la extensión es buscar si alguna parte de la url de la web que tengas abierta coincide con una url que hayas definido comoe producción o desarrollo
 
-`Producción`
+Producción
 ```
 var pro_urls = ["11.11.11.11", "domain1.com", "domain1.com/subfolder"];
 ```
 
-`Desarrollo`
+Desarrollo
 ```
 var dev_urls = ["localhost/phpMyAdmin", "22.22.22.22", "domain2.com", "domain2.com/subfolder"];
 ```
