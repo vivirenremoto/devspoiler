@@ -1,27 +1,14 @@
 {
-	"name": "Devspoiler",
-	"version": "1.0",
-	"manifest_version": 2,
-	"description": "Avisame si estoy en desarrollo, testing o producción",
-
-
-	"icons":{
-		"128":"icon.png"
-	},
-	
-
-	"permissions": [
-		"tabs"
-	],
-	
-	
-	
+    "name": "Devspoiler",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Avisame si estoy en desarrollo, testing o producción",
+    "icons":{
+        "128":"icon.png"
+    },
     "content_scripts" : [{
         "matches" : ["<all_urls>"],
         "js" : ["config.js", "background.js"],
         "css" : ["main.css"]
     }]
-
-	
-	
 }
